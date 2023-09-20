@@ -84,7 +84,7 @@ function drawText(canvas_id, text_id)
 function onOpenCvReady()
 {
     let sentence = document.getElementById('sentence');
-    sentence.value = 'テストああああああああああ';
+    sentence.value = '　藤岡弘、　　探検隊';
     cv['onRuntimeInitialized'] = () => {
         loadImage('preview');
     }
